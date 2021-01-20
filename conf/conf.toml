@@ -1,0 +1,6 @@
+[[Other.Logger]]
+Name = "RuntimeLogger"
+ConfigFile = "./conf/log_config/runtime.xml"
+
+[Other.Service]
+Port = 30878

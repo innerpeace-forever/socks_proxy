@@ -1,0 +1,8 @@
+<seelog>
+    <outputs formatid="runtime">
+        <rollingfile type="date" filename="./log/runtime.log" datepattern="2006-01-02" maxrolls="10"/>
+    </outputs>
+    <formats>
+        <format id="runtime" format="%Date %Time=>%Msg%n"/>
+    </formats>
+</seelog>
